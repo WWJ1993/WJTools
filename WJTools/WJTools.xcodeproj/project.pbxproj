@@ -51,7 +51,7 @@
 		F05A094A21DC64DF000F9F6B /* WJToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WJToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F05A094E21DC64DF000F9F6B /* WJToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WJToolsUITests.m; sourceTree = "<group>"; };
 		F05A095021DC64E0000F9F6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F05A095C21DC6588000F9F6B /* WJTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WJTools.h; sourceTree = "<group>"; };
+		F05A095E21DC954A000F9F6B /* WJTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WJTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +102,7 @@
 		F05A092921DC64D9000F9F6B /* WJTools */ = {
 			isa = PBXGroup;
 			children = (
+				F05A095D21DC954A000F9F6B /* WJTools */,
 				F05A092A21DC64D9000F9F6B /* AppDelegate.h */,
 				F05A092B21DC64D9000F9F6B /* AppDelegate.m */,
 				F05A092D21DC64D9000F9F6B /* ViewController.h */,
@@ -111,7 +112,6 @@
 				F05A093521DC64DF000F9F6B /* LaunchScreen.storyboard */,
 				F05A093821DC64DF000F9F6B /* Info.plist */,
 				F05A093921DC64DF000F9F6B /* main.m */,
-				F05A095C21DC6588000F9F6B /* WJTools.h */,
 			);
 			path = WJTools;
 			sourceTree = "<group>";
@@ -132,6 +132,14 @@
 				F05A095021DC64E0000F9F6B /* Info.plist */,
 			);
 			path = WJToolsUITests;
+			sourceTree = "<group>";
+		};
+		F05A095D21DC954A000F9F6B /* WJTools */ = {
+			isa = PBXGroup;
+			children = (
+				F05A095E21DC954A000F9F6B /* WJTools.h */,
+			);
+			path = WJTools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

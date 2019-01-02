@@ -57,10 +57,10 @@ A short description of WJTools.A short description of WJTools.A short descriptio
 
 
 
-  s.source_files  = "WJTools/*.{h,m}"
+#s.source_files  = "WJTools/WJTools/*.{h,m}"
 #s.exclude_files = "Classes/Exclude"
 
-  s.public_header_files = "WJTools/WJTools.h"
+#  s.public_header_files = "WJTools/WJTools.h"
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
